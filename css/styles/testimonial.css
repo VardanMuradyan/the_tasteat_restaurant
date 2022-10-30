@@ -1,0 +1,143 @@
+.testimonial {
+    background-color: #292E36;
+    padding-top: 140px;
+    margin-bottom: 140px;
+    overflow: hidden;
+}
+
+.testimonial_inner_name {
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.testimonial_item_name {
+    text-transform: capitalize;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 40px;
+    line-height: 56px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.testimonial_item_text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    letter-spacing: 02px;
+    margin-bottom: 20px;
+}
+
+
+.testimonial_bg_img {
+    width: 100%;
+}
+
+.testimonial_bg_img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial_item_content {
+    width: 100%;
+}
+
+/*slider content*/
+.slideshow {
+    padding: 40px 0 50px 0;
+    position: relative;
+}
+
+.slide {
+    display: flex;
+    gap: 30px;
+}
+
+.sliders {
+    min-width: 544px;
+    flex: 1;
+    padding: 0 40px;
+    background-color: #343942;
+}
+
+.slider_content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.slider_content:after {
+    content: '';
+    bottom: -30px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    display: inline-block;
+    border: 1px solid #797E89;
+}
+
+.slider_images {
+    position: relative;
+    width: 114px;
+    height: 114px;
+}
+
+.slider_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider_img-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.slider_name {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    line-height: 42px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.slider_prof {
+    font-size: 20px;
+    line-height: 30px;
+    color: #e1b168;
+}
+
+.slider_text {
+    width: 100%;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 24px;
+    line-height: 38px;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 32px;
+}
+
+.testimonial_btn {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.slide_btn {
+    color: rgba(255, 255, 255, 0.4);;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: color 180ms linear;
+}
+
+.slide_btn:hover {
+    color: #ffffff;
+}
+
+.slide_btn:checked, .btn_act{
+    color: #ffffff;
+}

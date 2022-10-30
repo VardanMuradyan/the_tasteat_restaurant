@@ -1,0 +1,129 @@
+.offers {
+    margin-bottom: 120px;
+}
+
+.offers_name {
+    text-align: center;
+}
+
+.offers_content_name {
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #292E36;
+    font-family: 'Cormorant Infant', serif;
+    margin-bottom: 8px;
+}
+
+.offers_text {
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 0 180px;
+    line-height: 30px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+
+.offers_inner {
+    display: flex;
+    gap: 30px;
+}
+
+.offers_items {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.offers_box {
+    align-items: center;
+    display: flex;
+    padding: 40px;
+}
+
+.box_1 {
+    background-color: #C5EAF2;
+    background-image: url("../../images/Our_Offer_dishes/bg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.box_2 {
+    background-color: #E8E8E8;
+    background-image: url("../../images/Our_Offer_dishes/bg2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.offers_icon {
+    width: 167px;
+    height: 104px;
+    margin-bottom: 36px;
+    position: relative;
+}
+
+.offers_icon img {
+    width: 100%;
+}
+
+.offers_box_name {
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    color: #292E36;
+}
+
+.offers_box_text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+}
+
+.offers_box_content {
+    width: 50%;
+}
+
+.offers_box_img {
+    width: 50%;
+}
+
+.offers_box_img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.offers_icon_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+
+.offers_icon_content-name {
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 10px;
+    color: #292E36;
+}
+
+.offers_icon_content--name {
+    color: #ffffff;
+}
+
+.offers_icon_content--text {
+    color: #ffffff;
+}
+
+.offers_icon_content-text {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 60px;
+    line-height: 66px;
+}

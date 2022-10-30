@@ -1,0 +1,33 @@
+@import "styles/all.css";
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    color: #292E36;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.button{
+    display: inline-block;
+    padding: 20px 57px;
+    color: #e1b168;
+    font-family: "Josefin Sans", serif;
+    font-size: 22px;
+    line-height: 33px;
+    border: 1px solid #e1b168;
+    transition: background-color, color 180ms linear;
+}
+.button:hover {
+    color: #292E36;
+    background-color: #e1b168;
+}

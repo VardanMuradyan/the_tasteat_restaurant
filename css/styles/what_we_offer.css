@@ -1,0 +1,57 @@
+.we_offer{
+    background-color: #292E36;
+    margin-bottom: 140px;
+}
+.we_offer_inner{
+    padding: 140px 0;
+    display: flex;
+    gap: 90px;
+}
+
+.we_offer_items{
+    color: #ffffff;
+}
+.we_offer_item-name{
+    margin-bottom: 10px;
+}
+.we_offer_name{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+.we_offer_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 36px;
+}
+.we_offer_content{
+    display: flex;
+    gap: 30px;
+}
+
+.we-offer_box{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 234px;
+    height: 254px;
+    border: 20px solid #323841;
+}
+.we-offer_box>img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.we-offer_box p{
+    text-align: center;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+}
