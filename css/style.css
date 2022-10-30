@@ -31,3 +31,22 @@ body{
     color: #292E36;
     background-color: #e1b168;
 }
+
+.name{
+    font-family: 'Cormorant Infant', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    color: #292E36;
+    text-transform: capitalize;
+}
+
+.text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+}
